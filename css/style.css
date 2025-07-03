@@ -16,11 +16,16 @@ header{
     padding: 20px;
 }
 
-header img{
-    width: 360px;
+header .pfp{
+    width: 270px;
     height: 270px;
     border: 8px solid black;
     border-radius: 50%;
+    background-image: url('./../img/zukopfp.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 header h1{
@@ -29,6 +34,5 @@ header h1{
     font-style: normal;
     font-size: 50px;
     margin: 10px 0 20px 0;
-
 }
 }
