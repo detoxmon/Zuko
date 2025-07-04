@@ -40,12 +40,24 @@ header{
     padding: 20px;
 }
 
-header .pfp{
+header .pfp.zuko{
     width: 270px;
     height: 270px;
     border: 8px solid black;
     border-radius: 50%;
     background-image: url('./../img/zukopfp.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+header .pfp.aang{
+    width: 270px;
+    height: 270px;
+    border: 8px solid black;
+    border-radius: 50%;
+    background-image: url('./../img/aangpfp.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -84,7 +96,11 @@ main{
 main img{
     margin: 20px 0px 0px 0px;
     width: 333px;
-    height: 250px;
+    height: auto;
+}
+
+main img.idk{
+    margin: 20px 0px 0px -30px;
 }
 
 footer{
